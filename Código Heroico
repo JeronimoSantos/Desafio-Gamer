@@ -1,0 +1,15 @@
+class hero{
+ constructor(nome, idade, tipo, atacar){
+   this.nome = nome
+   this.idade = idade
+   this.tipo = tipo
+   this.atacar = atacar
+     }
+atacar.(){
+ console.log("o " + this.tipo + " atacou usando " + this.atacar)}
+}
+let apresentacaoHeroi = new hero("Kirito", "20", "Guerreiro", "Espada")
+ apresentacaoHeroi.atacar()
+
+let apresentacaoVilao = new hero("Zabuza", "26", "Ninja", "Shuriken")
+ apresentacaoVilao.atacar()
